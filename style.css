@@ -1,0 +1,49 @@
+.heading{
+    margin-left: 1px;
+    font-weight: 10px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+textarea{
+    border: none;
+    border-bottom: 1px solid grey;
+    user-select: none;
+    outline: none;
+}
+button{
+    width: 180px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.child2{
+    flex: 3;
+    
+}
+.child1{
+    flex: 2;
+    
+}
+img{
+    width: 600px;
+}
